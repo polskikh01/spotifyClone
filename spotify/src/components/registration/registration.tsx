@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../button/button';
+
 const Registration = () => {
     return (
         <a href="/"
@@ -10,10 +12,7 @@ const Registration = () => {
                     occasional
                     ads. No credit card needed.</p>
             </div>
-            <button
-                className="bg-white text-[#2c77d0] text-[14px] font-semibold leading-5 tracking-widest uppercase py-[9px] px-[48px] rounded-full hover:scale-105">Sign
-                up free
-            </button>
+            <Button styles="bg-white text-[#2c77d0] text-[14px]" text="Sign up free" />
         </a>
     )
 }

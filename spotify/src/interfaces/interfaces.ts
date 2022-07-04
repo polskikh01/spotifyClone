@@ -9,3 +9,13 @@ export interface NavItemInterface {
 export interface FooterItemInterface {
     label: string
 }
+
+export interface ButtonInterface {
+    styles?: string,
+    text: string
+}
+
+export interface PlayListInfoInterface {
+    title: string,
+    description: string
+}
